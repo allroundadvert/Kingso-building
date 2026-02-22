@@ -1,194 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CJ Plumbing Resorts</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kingso Building Investment Nigeria Limited</title>
 
-  <!-- Social Preview -->
-  <meta property="og:title" content="CJ Plumbing Resorts">
-  <meta property="og:description" content="Professional plumbing services with excellence and trust.">
-  <meta property="og:image" content="https://raw.githubusercontent.com/allroundadvert/CJ-Global-/main/IMG-20260207-WA0053.jpg">
-  <meta property="og:url" content="https://allroundadvert.github.io/CJ-PLUMBING-RESORTS-/">
-  <meta property="og:type" content="website">
+<!-- SEO & Social Preview -->
+<meta name="description" content="Kingso Building Investment Nigeria Limited – Quality plumbing and building materials you can trust.">
+<meta property="og:title" content="Kingso Building Investment Nigeria Limited">
+<meta property="og:description" content="Premium plumbing and building materials. Quality you can trust.">
+<meta property="og:type" content="website">
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="CJ Plumbing Resorts">
-  <meta name="twitter:description" content="Professional plumbing services with excellence and trust.">
-  <meta name="twitter:image" content="https://raw.githubusercontent.com/allroundadvert/CJ-Global-/main/IMG-20260207-WA0053.jpg">
+<style>
+:root{
+  --gold:#d4af37;
+  --dark:#0b0b0f;
+  --blue:#0a2a66;
+}
 
-  <style>
-    /* ===== GLOBAL STYLES ===== */
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-      color: #fff;
-      text-align: center;
-      overflow-x: hidden;
-    }
-    h1 {
-      font-size: 3em;
-      margin: 50px 20px 10px 20px;
-      color: #00fff7;
-      text-shadow: 2px 2px 15px #000;
-    }
-    p {
-      font-size: 1.2em;
-      max-width: 700px;
-      margin: 10px auto 40px auto;
-      line-height: 1.6;
-      color: #e0e0e0;
-      text-shadow: 1px 1px 5px #000;
-    }
+*{
+  box-sizing:border-box;
+}
 
-    /* ===== HERO IMAGE ===== */
-    .hero-img {
-      width: 100%;
-      max-width: 450px;
-      margin: 20px auto;
-      border-radius: 20px;
-      cursor: pointer;
-      box-shadow: 0 0 35px #00fff7;
-      transition: transform 0.4s, box-shadow 0.4s;
-    }
-    .hero-img:hover {
-      transform: scale(1.05);
-      box-shadow: 0 0 50px #00fff7;
-    }
+body{
+  margin:0;
+  font-family:'Segoe UI',Tahoma,Verdana,sans-serif;
+  background:linear-gradient(135deg,#05070d,#0b1a2e,#05070d);
+  color:#fff;
+  text-align:center;
+}
 
-    /* ===== BUTTONS ===== */
-    .btn {
-      display: inline-block;
-      margin: 15px;
-      padding: 20px 40px;
-      border-radius: 12px;
-      font-size: 1.2em;
-      font-weight: bold;
-      text-decoration: none;
-      color: #fff;
-      box-shadow: 0 0 20px #00fff7;
-      transition: transform 0.2s, opacity 0.2s, box-shadow 0.3s;
-    }
-    .btn:hover {
-      transform: scale(1.1);
-      opacity: 0.95;
-      box-shadow: 0 0 35px #00fff7;
-    }
-    .call { background-color: #ff4c4c; }
-    .whatsapp { background-color: #25d366; }
-    .email { background-color: #ff9900; }
+/* HEADER */
+header{
+  padding:60px 20px 40px;
+  background:linear-gradient(135deg,#0a2a66,#000);
+  border-bottom:4px solid var(--gold);
+}
 
-    /* ===== FLOATING MATERIALS ===== */
-    .materials-container {
-      position: relative;
-      height: 250px;
-      overflow: hidden;
-      margin: 50px 0;
-    }
-    .material {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      white-space: nowrap;
-      animation: floatLeft 18s linear infinite;
-    }
-    .material img {
-      width: 200px;
-      border-radius: 15px;
-      margin: 0 20px;
-      cursor: pointer;
-      box-shadow: 0 0 25px #00fff7;
-      transition: transform 0.4s, box-shadow 0.4s;
-    }
-    .material img:hover {
-      transform: scale(1.15);
-      box-shadow: 0 0 40px #00fff7;
-    }
-    .material:nth-child(1) { animation-delay: 0s; }
-    .material:nth-child(2) { animation-delay: 2s; }
-    .material:nth-child(3) { animation-delay: 4s; }
-    .material:nth-child(4) { animation-delay: 6s; }
-    .material:nth-child(5) { animation-delay: 8s; }
+header h1{
+  font-size:2.6em;
+  color:var(--gold);
+  letter-spacing:1px;
+  margin-bottom:10px;
+}
 
-    @keyframes floatLeft {
-      0% { left: 100%; }
-      100% { left: -250px; }
-    }
+header p{
+  max-width:800px;
+  margin:auto;
+  font-size:1.15em;
+  color:#e6e6e6;
+}
 
-    /* ===== STATIC CLICKABLE IMAGES ===== */
-    .static-images {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      margin: 50px 0;
-      gap: 25px;
-    }
-    .static-images a img {
-      width: 220px;
-      border-radius: 15px;
-      cursor: pointer;
-      box-shadow: 0 0 25px #00fff7;
-      transition: transform 0.3s, box-shadow 0.3s;
-    }
-    .static-images a img:hover {
-      transform: scale(1.1);
-      box-shadow: 0 0 40px #00fff7;
-    }
+/* ADDRESS */
+.address{
+  font-size:1.05em;
+  margin:15px auto 35px auto;
+  max-width:850px;
+  color:#ffffff;
+  font-weight:bold;
+  text-shadow:1px 1px 6px #000;
+}
 
-    /* ===== FOOTER ===== */
-    footer {
-      background-color: #111;
-      color: #aaa;
-      padding: 25px;
-      margin-top: 50px;
-      font-size: 0.9em;
-    }
+/* SERVICES */
+section.services{
+  padding:50px 20px;
+}
 
-  </style>
+.services h2{
+  color:var(--gold);
+  font-size:2em;
+  margin-bottom:25px;
+}
+
+.service-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:20px;
+}
+
+.service-item{
+  background:rgba(255,255,255,0.05);
+  padding:20px;
+  border-radius:15px;
+  border:1px solid rgba(212,175,55,0.3);
+  font-weight:600;
+  transition:transform .3s, box-shadow .3s;
+}
+
+.service-item:hover{
+  transform:translateY(-6px);
+  box-shadow:0 10px 30px rgba(212,175,55,0.3);
+}
+
+/* LOCATIONS */
+.locations{
+  max-width:900px;
+  margin:auto;
+  padding:40px 20px;
+}
+
+.locations h2{
+  color:var(--gold);
+  font-size:2em;
+  margin-bottom:20px;
+}
+
+.location-box{
+  background:rgba(255,255,255,0.05);
+  padding:20px;
+  border-radius:15px;
+  margin:15px 0;
+  border-left:4px solid var(--gold);
+  font-size:1.05em;
+}
+
+/* GALLERY */
+.gallery{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:20px;
+  margin:50px 0;
+}
+
+.gallery a img{
+  width:100%;
+  max-width:350px;
+  border-radius:12px;
+  box-shadow:0 0 25px #00fff7;
+  transition: transform .3s, box-shadow .3s;
+  cursor:pointer;
+}
+
+.gallery a img:hover{
+  transform:scale(1.05);
+  box-shadow:0 0 40px #00fff7;
+}
+
+/* BUTTONS */
+.buttons{
+  margin-top:40px;
+}
+
+.btn{
+  display:inline-block;
+  margin:12px;
+  padding:16px 30px;
+  border-radius:14px;
+  font-size:1.1em;
+  font-weight:bold;
+  text-decoration:none;
+  color:#fff;
+  transition:transform .2s, box-shadow .3s;
+}
+
+.btn:hover{
+  transform:scale(1.08);
+}
+
+.call{
+  background:#c0392b;
+  box-shadow:0 0 20px rgba(192,57,43,0.6);
+}
+
+.whatsapp{
+  background:#25d366;
+  box-shadow:0 0 20px rgba(37,211,102,0.6);
+}
+
+.email{
+  background:#0a2a66;
+  box-shadow:0 0 20px rgba(10,42,102,0.6);
+}
+
+/* FOOTER */
+footer{
+  background:#000;
+  padding:25px 15px;
+  font-size:.9em;
+  color:#aaa;
+  border-top:3px solid var(--gold);
+}
+
+@media(max-width:600px){
+  header h1{
+    font-size:2em;
+  }
+}
+</style>
 </head>
 
 <body>
 
-  <h1>CJ Plumbing Resorts</h1>
-  <p>We deliver professional plumbing services with excellence, trust, and powerful results. Contact us now for urgent services!</p>
+<header>
+  <h1>Kingso Building Investment Nigeria Limited</h1>
+  <p>
+    Premium plumbing and building materials you can trust.<br>
+    Quality you can rely on for modern construction needs.
+  </p>
+</header>
 
-  <!-- HERO IMAGE -->
-  <a href="https://wa.me/2348131236078?text=Hello%2C%20I%20need%20plumbing%20services%20urgently.%20Please%20reply." target="_blank">
-    <img src="https://raw.githubusercontent.com/allroundadvert/CJ-Global-/main/IMG-20260207-WA0053.jpg" alt="CJ Plumbing Resorts" class="hero-img">
+<div class="address">
+📍 1A Aluu Road, Rumuekini, Port Harcourt <br>
+📍 1A Ahoada Road, Elele, Rivers State
+</div>
+
+<section class="services">
+  <h2>Our Services</h2>
+  <div class="service-grid">
+    <div class="service-item">Plumbing Materials</div>
+    <div class="service-item">Tiles</div>
+    <div class="service-item">Water Heaters</div>
+    <div class="service-item">Fittings</div>
+    <div class="service-item">Cement</div>
+    <div class="service-item">PVC Ceiling</div>
+    <div class="service-item">Doors</div>
+    <div class="service-item">Geepee Tanks</div>
+    <div class="service-item">W.C Set & Pipes</div>
+    <div class="service-item">Borehole Materials</div>
+  </div>
+</section>
+
+<section class="gallery">
+  <!-- CJ Plumbing Images -->
+  <a href="https://wa.me/2347033532659?text=Hello%2C%20I%20am%20interested%20in%20your%20materials." target="_blank">
+    <img src="https://raw.githubusercontent.com/allroundadvert/CJ-Global-/main/IMG-20260207-WA0051(1).jpg" alt="Material 1">
   </a>
+  <a href="https://wa.me/2347033532659?text=Hello%2C%20I%20am%20interested%20in%20your%20materials." target="_blank">
+    <img src="https://raw.githubusercontent.com/allroundadvert/CJ-Global-/main/IMG-20260207-WA0040.jpg" alt="Material 2">
+  </a>
+  <a href="https://wa.me/2347033532659?text=Hello%2C%20I%20am%20interested%20in%20your%20materials." target="_blank">
+    <img src="https://raw.githubusercontent.com/allroundadvert/CJ-Global-/main/IMG-20260207-WA0039.jpg" alt="Material 3">
+  </a>
+  <a href="https://wa.me/2347033532659?text=Hello%2C%20I%20am%20interested%20in%20your%20materials." target="_blank">
+    <img src="https://raw.githubusercontent.com/allroundadvert/CJ-Global-/main/IMG-20260207-WA0041.jpg" alt="Material 4">
+  </a>
+  <a href="https://wa.me/2347033532659?text=Hello%2C%20I%20am%20interested%20in%20your%20materials." target="_blank">
+    <img src="https://raw.githubusercontent.com/allroundadvert/CJ-Global-/main/IMG-20260207-WA0042.jpg" alt="Material 5">
+  </a>
+  <a href="https://wa.me/2347033532659?text=Hello%2C%20I%20am%20interested%20in%20your%20materials." target="_blank">
+    <img src="https://raw.githubusercontent.com/allroundadvert/CJ-Global-/main/IMG-20260207-WA0045.jpg" alt="Material 6">
+  </a>
+  <a href="https://wa.me/2347033532659?text=Hello%2C%20I%20am%20interested%20in%20your%20materials." target="_blank">
+    <img src="https://raw.githubusercontent.com/allroundadvert/CJ-Global-/main/IMG-20260207-WA0048.jpg" alt="Material 7">
+  </a>
+  <a href="https://wa.me/2347033532659?text=Hello%2C%20I%20am%20interested%20in%20your%20materials." target="_blank">
+    <img src="https://raw.githubusercontent.com/allroundadvert/CJ-Global-/main/IMG-20260207-WA0038.jpg" alt="Material 8">
+  </a>
+  <a href="https://wa.me/2347033532659?text=Hello%2C%20I%20am%20interested%20in%20your%20materials." target="_blank">
+    <img src="https://raw.githubusercontent.com/allroundadvert/CJ-Global-/main/IMG-20260207-WA0051.jpg" alt="Material 9">
+  </a>
+  <a href="https://wa.me/2347033532659?text=Hello%2C%20I%20am%20interested%20in%20your%20materials." target="_blank">
+    <img src="https://raw.githubusercontent.com/allroundadvert/CJ-Global-/main/IMG-20260207-WA0053.jpg" alt="Material 10">
+  </a>
+</section>
 
-  <!-- FLOATING MATERIALS -->
-  <div class="materials-container">
-    <div class="material"><img src="IMG-20260207-WA0051(1).jpg" alt="W.C Set"></div>
-    <div class="material"><img src="IMG-20260207-WA0040.jpg" alt="Jacuzzi"></div>
-    <div class="material"><img src="IMG-20260207-WA0039.jpg" alt="Pipes"></div>
-    <div class="material"><img src="IMG-20260207-WA0041.jpg" alt="J.P. Tanks"></div>
-    <div class="material"><img src="IMG-20260207-WA0042.jpg" alt="Other Materials"></div>
-  </div>
+<section class="buttons">
+  <a class="btn call" href="tel:09035357144">📞 Call Us</a>
+  <a class="btn whatsapp" href="https://wa.me/2347033532659?text=Hello%2C%20I%20am%20interested%20in%20your%20building%20materials." target="_blank">💬 WhatsApp</a>
+  <a class="btn email" href="mailto:okorogu3@gmail.com">📧 Email Us</a>
+</section>
 
-  <!-- STATIC CLICKABLE IMAGES -->
-  <div class="static-images">
-    <a href="https://wa.me/2348131236078?text=Hello%2C%20I%20am%20interested%20in%20your%20services.%20Please%20assist%20me." target="_blank">
-      <img src="IMG-20260207-WA0051(1).jpg" alt="Interested?">
-    </a>
-    <a href="https://wa.me/2348131236078?text=Hello%2C%20I%20need%20plumbing%20service%20urgently." target="_blank">
-      <img src="IMG-20260207-WA0040.jpg" alt="Interested?">
-    </a>
-    <a href="https://wa.me/2348131236078?text=Hello%2C%20I saw your website and I am interested." target="_blank">
-      <img src="IMG-20260207-WA0039.jpg" alt="Interested?">
-    </a>
-  </div>
-
-  <!-- CONTACT BUTTONS -->
-  <h2>Contact Us</h2>
-  <a class="btn call" href="tel:08131236078">Call Us</a>
-  <a class="btn whatsapp" href="https://wa.me/2348131236078?text=Hello%2C%20I%20am%20interested%20in%20your%20services." target="_blank">WhatsApp</a>
-  <a class="btn email" href="mailto:okorogu3@gmail.com">Email Us</a>
-
-  <footer>
-    © 2026 CJ Plumbing Resorts. All rights reserved.
-  </footer>
+<footer>
+  © 2026 Kingso Building Investment Nigeria Limited.<br>
+  Quality Building & Plumbing Materials You Can Trust.
+</footer>
 
 </body>
 </html>
